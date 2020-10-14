@@ -5,9 +5,9 @@ import sympy as sp
 class LiftingLineTheory(object):
 	def __init__(self):
 		"""
-		Class implementing all the necessary methods obtain wing data using the Prandtl Lifting Line Theory. The process
-		to solve the system, the user should specify the stations at which the equation should be evaluated and the
-		terms to be considered for the Fourier series involved. The steps to solve are:
+		Class implementing all the necessary methods obtain wing data using the Prandtl Lifting Line Theory. To solve
+		the system, the user should specify the stations at which the equation should be evaluated and the terms to be
+		considered for the Fourier series involved. The steps to solve are:
 		1. Initialize this class. No inputs are required.
 		2. Load all the geometric properties of the wing: aspect_ratio, taper_ratio, surface, chord_distribution and
 		zero_lift_angle. The chord distribution must be an unique function of theta. The zero lift angle input can be
